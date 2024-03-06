@@ -2,6 +2,7 @@
 from unittest.mock import Mock
 from pizza import Pizza
 from carte_pizza import CartePizzeria
+from carte_pizza_exception import CartePizzeriaException
 import pytest
 
 def test_is_empty():
